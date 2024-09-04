@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1>Event Name</h1>
+        <img src="download.jpeg" alt="Image" width="300" height="200" />
+        <nav>
+          <ul>
+            <li><a href="task.html">Home</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+            <li><a href="Speakers.html">Speakers</a></li>
+            <li><a href="Venue.html">Venue</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <h2>Register For The Event</h2>
+    <form action="" method="">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Ticket Information</b></legend>
+
+        <label for="ticket">Ticket Type:</label>
+        <select id="ticket" name="ticket">
+          <option value="standard">Standard</option>
+          <option value="vip">VIP</option>
+          <option value="student">Student</option>
+        </select>
+        <p><b>MEAL Preferences</b></p>
+        <label for="vegetarian">Vegetarian</label>
+        <input type="checkbox" />
+        <label for="non-vegetarian">Non-Vegetarian</label>
+        <input type="checkbox" />
+
+        <p><b>Workshop</b></p>
+        <label for="workshop1">Workshop 1</label>
+        <input type="checkbox" />
+        <label for="Workshop2">Workshop 2</label>
+        <input type="radio" />
+      </fieldset>
+
+      <label for="comments"><b>Additional Comments</b></label>
+      <input type="textarea" />
+      <textarea name="Message" id="Message">Message</textarea>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
